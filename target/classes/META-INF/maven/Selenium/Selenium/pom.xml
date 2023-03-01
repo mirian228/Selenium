@@ -17,5 +17,11 @@
 			<artifactId>selenium-java</artifactId>
 			<version>4.8.1</version>
 		</dependency>
+		<!-- Selenium HTMLunit-driver -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>htmlunit-driver</artifactId>
+			<version>4.8.0</version>
+		</dependency>
 	</dependencies>
 </project>

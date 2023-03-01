@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-01T16:42:05 GET" name="Default suite" finished-at="2023-03-01T16:42:25 GET" duration-ms="20088">
+  <suite started-at="2023-03-01T16:52:04 GET" name="Default suite" finished-at="2023-03-01T16:52:07 GET" duration-ms="3381">
     <groups>
     </groups>
-    <test started-at="2023-03-01T16:42:05 GET" name="Default test" finished-at="2023-03-01T16:42:25 GET" duration-ms="20088">
-      <class name="headless.HeadLessFirefox">
-        <test-method signature="HeadLessFirefoxTest()[pri:0, instance:headless.HeadLessFirefox@6b927fb]" started-at="2023-03-01T16:42:05 GET" name="HeadLessFirefoxTest" finished-at="2023-03-01T16:42:25 GET" duration-ms="20047" status="PASS">
+    <test started-at="2023-03-01T16:52:04 GET" name="Default test" finished-at="2023-03-01T16:52:07 GET" duration-ms="3381">
+      <class name="headless.HtmlUnitHeadless">
+        <test-method signature="HtmlUnitHeadlessTest()[pri:0, instance:headless.HtmlUnitHeadless@7e07db1f]" started-at="2023-03-01T16:52:04 GET" name="HtmlUnitHeadlessTest" finished-at="2023-03-01T16:52:07 GET" duration-ms="3314" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HeadLessFirefoxTest -->
-      </class> <!-- headless.HeadLessFirefox -->
+        </test-method> <!-- HtmlUnitHeadlessTest -->
+      </class> <!-- headless.HtmlUnitHeadless -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
