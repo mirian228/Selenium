@@ -18,6 +18,8 @@ public class GetCommands {
 		System.out.println(driver.getCurrentUrl()); // returns page current URL
 		WebElement text = driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div/div/div/div[1]/h2"));
 		System.out.println(text.getText()); // Returns text from page element
+		driver.close(); // closes current browser window
+		// driver.quit() closes all browser windows
 
 	}
 
