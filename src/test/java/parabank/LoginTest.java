@@ -11,7 +11,7 @@ public class LoginTest {
 	WebDriver driver;
 	@Test(priority=1)
 	public void TestDriver() {
-		System.setProperty("webdriver.firefox.marionette", "C:\\\\Dev\\\\Drivers\\\\firefox\\\\geckodriver.exe");
+		System.setProperty("webdriver.firefox.marionette", "C:\\Dev\\Drivers\\firefox\\geckodriver.exe");
 		driver = new FirefoxDriver();
 		driver.get("https://parabank.parasoft.com/parabank/index.htm");
 	}
