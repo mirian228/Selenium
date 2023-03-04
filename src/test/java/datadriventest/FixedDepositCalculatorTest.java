@@ -34,7 +34,7 @@ public class FixedDepositCalculatorTest {
 		WebElement pushNotification = driver.findElement(By.xpath(".//*[@id='wzrk-confirm']"));
 		pushNotification.click();
 
-		for (int i = 1; i < lastRowCount; i++) {
+		for (int i = 1; i <= lastRowCount; i++) {
 			XSSFRow row = sheet.getRow(i);
 			int principal = (int) row.getCell(0).getNumericCellValue();
 			int rateOfInterest = (int) row.getCell(1).getNumericCellValue();
