@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="headless.HeadLessFirefox">
+      <class name="datadriventest.FixedDepositCalculatorTest">
         <methods>
-          <include name="HeadLessFirefoxTest"/>
+          <include name="calculateTest"/>
         </methods>
-      </class> <!-- headless.HeadLessFirefox -->
+      </class> <!-- datadriventest.FixedDepositCalculatorTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
