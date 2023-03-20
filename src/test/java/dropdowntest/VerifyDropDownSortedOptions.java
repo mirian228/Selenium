@@ -45,6 +45,7 @@ public class VerifyDropDownSortedOptions {
 			System.out.println("Dropdown not sorted");
 		}
 		
+		driver.quit();
 	}
 
 }

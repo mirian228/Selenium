@@ -1,4 +1,4 @@
-package pageobjectmodel;
+package pageobjectmodelwikipedia;
 
 import java.util.Properties;
 
